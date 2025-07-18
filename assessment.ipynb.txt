@@ -1,0 +1,817 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "NRU206icSBnX"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "1. What is Python, and why is it popular?\n",
+        "-Python is a high-level, interpreted programming language known for its readability, simplicity, and versatility.\n",
+        "a.It's popular because:\n",
+        "b.It's easy to learn and write.\n",
+        "c.Has a large standard library and active community."
+      ],
+      "metadata": {
+        "id": "hLLLeKljUHt-"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "2. What is an interpreter in Python?\n",
+        "-An interpreter reads and executes Python code line by line\n"
+      ],
+      "metadata": {
+        "id": "k55TD2chVjs0"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "3.What are pre-defined keywords in Python?\n",
+        "-Keywords are reserved words that have special meaning in Python.\n",
+        "Examples: if, for, while, class, def, True, None"
+      ],
+      "metadata": {
+        "id": "o8cpqw7uVyw8"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "4. Can keywords be used as variable names?\n",
+        "-No, keywords cannot be used as variable names because they are reserved by the language syntax.\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "y93CglMyV-1f"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "5. What is mutability in Python?\n",
+        "-Mutability refers to whether an object’s state or content can be changed after it is created.\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "CYOpCXazWNUg"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        " Why are lists mutable, but tuples are immutable\n",
+        " -Lists are designed for dynamic data where values can be added, removed, or changed"
+      ],
+      "metadata": {
+        "id": "EMLSOuxvWfri"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "7. What is the difference between == and is operators in Python?\n",
+        "==COMPARE THE VALUES\n",
+        "IS COMPARE THE IDENTITIES"
+      ],
+      "metadata": {
+        "id": "s2lKfBlOWolE"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "8. What are logical operators in Python?\n",
+        "-Logical operators are used to combine boolean expressions:\n",
+        "\n",
+        "and: True if both operands are true\n",
+        "\n",
+        "or: True if at least one operand is true\n",
+        "\n",
+        "not: Inverts the boolean value"
+      ],
+      "metadata": {
+        "id": "z7NEAHfVXODz"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "9. What is type casting in Python?\n",
+        "-Type casting is converting one data type to another"
+      ],
+      "metadata": {
+        "id": "GIwOi5y_XfRU"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "10.What is the difference between implicit and explicit type casting?\n",
+        "-Implicit: Python automatically converts the type.\n",
+        "Explicit: You manually convert the type."
+      ],
+      "metadata": {
+        "id": "2nJUzaRGWRwM"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "11.What is the purpose of conditional statements in Python?\n",
+        "-Conditional statements are used to make decisions in code based on certain conditions."
+      ],
+      "metadata": {
+        "id": "fK3-lB3QYDPT"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "12. How does the elif statement work?\n",
+        "-elif stands for \"else if\" and lets you check multiple conditions:"
+      ],
+      "metadata": {
+        "id": "w_ZMuf3CYJH3"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "13. What is the difference between for and while loops?\n",
+        "-for loop: Used when you know how many times to iterate (e.g., over a list or range).\n",
+        "\n",
+        "while loop: Used when you don’t know how many times, and loop continues until a condition becomes false."
+      ],
+      "metadata": {
+        "id": "zqGgjHwwYPUW"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "14. Describe a scenario where a while loop is more suitable than a for loop.\n",
+        "- Waiting for user input until they type \"exit\":\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "mz5wa68qYXDb"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "6ia-tCdWYmaV"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "LJncxP5vYnG1"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "1. Print \"Hello, World!\""
+      ],
+      "metadata": {
+        "id": "TmEleKC9YtR0"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "2.Display name and age"
+      ],
+      "metadata": {
+        "id": "cyr0m-gzY5R1"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = \"Your Name\"  # Replace with your name\n",
+        "age = 30           # Replace with your age\n",
+        "\n",
+        "print(\"Name:\", name)\n",
+        "print(\"Age:\", age)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bvgkkRgHY9AL",
+        "outputId": "21f1b1d4-cba7-4626-dbb6-24b370e68a14"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Name: Your Name\n",
+            "Age: 30\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Hello, World!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Btm1zth0Yv1o",
+        "outputId": "7a974b3b-9369-4b13-bd7c-9cbdbc32c671"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello, World!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "3. Print all predefined keywords using the keyword module"
+      ],
+      "metadata": {
+        "id": "SQyEIrSPZSfs"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import keyword\n",
+        "\n",
+        "print(\"Python Keywords:\")\n",
+        "print(keyword.kwlist)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ZIxt8re9ZaqD",
+        "outputId": "4d056ed9-7578-4d8b-a1c0-9dac285a9149"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Python Keywords:\n",
+            "['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "4. Check if a word is a Python keyword"
+      ],
+      "metadata": {
+        "id": "aQbKd7e2ZklJ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "input(\"Enter a word: \")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 54
+        },
+        "id": "rcstC9USZoLS",
+        "outputId": "da76dea4-8b9f-43ea-8618-9bef4adf4b5d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Enter a word: word\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'word'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 7
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "aoQdU6SkaUqe"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "5.List vs Tuple mutability"
+      ],
+      "metadata": {
+        "id": "Ffn8Ud3DaZWD"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "my_tuple = (1, 2, 3)\n"
+      ],
+      "metadata": {
+        "id": "pTuSKvIwacfa"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "6.Mutable vs Immutable arguments"
+      ],
+      "metadata": {
+        "id": "C7-bpVPNa1zX"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"List after function:\", my_list)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 146
+        },
+        "id": "bolO27YrbCq0",
+        "outputId": "372722da-ba66-4b37-a05e-f83b2894fe48"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "NameError",
+          "evalue": "name 'my_list' is not defined",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipython-input-17-2040422328.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"List after function:\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mmy_list\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m: name 'my_list' is not defined"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "7. Basic arithmetic operations"
+      ],
+      "metadata": {
+        "id": "CasWwn1ObWG9"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = float(input(\"Enter first number: \"))\n",
+        "b = float(input(\"Enter second number: \"))\n",
+        "\n",
+        "print(\"Sum:\", a + b)\n",
+        "print(\"Difference:\", a - b)\n",
+        "print(\"Product:\", a * b)\n",
+        "print(\"Quotient:\", a / b if b != 0 else \"Division by zero\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cK14VOixbX9-",
+        "outputId": "827c8335-5cdb-414a-e62e-65b8a4c619c3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter first number: 1\n",
+            "Enter second number: 5\n",
+            "Sum: 6.0\n",
+            "Difference: -4.0\n",
+            "Product: 5.0\n",
+            "Quotient: 0.2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "8. Demonstrate logical operators\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "KiKn68d0bkmJ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = int(input(\"Enter a number: \"))\n",
+        "if x > 0 and x < 100:\n",
+        "    print(\"Number is positive and less than 100.\")\n",
+        "elif x < 0 or x > 100:\n",
+        "    print(\"Number is either negative or greater than 100.\")\n",
+        "else:\n",
+        "    print(\"Number is zero or exactly 100.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jNUO7FTpbvwv",
+        "outputId": "16717d1a-9a2b-433c-c052-164a6d38a4e0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: 100\n",
+            "Number is zero or exactly 100.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9cc9e3ec",
+        "outputId": "b0e7b75e-3f1d-48a1-96aa-5f9de2e31570"
+      },
+      "source": [
+        "my_list = [1, 2, 3, 4]\n",
+        "print(\"List after function:\", my_list)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "List after function: [1, 2, 3, 4]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "9. Convert user input to int, float, and bool"
+      ],
+      "metadata": {
+        "id": "42s2vatGb3vP"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "value = input(\"Enter a value: \")\n",
+        "\n",
+        "int_val = int(value)\n",
+        "float_val = float(value)\n",
+        "bool_val = bool(value)\n",
+        "\n",
+        "print(\"Integer:\", int_val)\n",
+        "print(\"Float:\", float_val)\n",
+        "print(\"Boolean:\", bool_val)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "g2VKoYDxb7Dx",
+        "outputId": "e8107457-17d7-42c3-c33f-b94deb8f94a7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a value: 10\n",
+            "Integer: 10\n",
+            "Float: 10.0\n",
+            "Boolean: True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "10. Type casting with list elements"
+      ],
+      "metadata": {
+        "id": "LmVT7JggcC4S"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "str_list = [\"1\", \"2\", \"3\"]\n",
+        "int_list = [int(i) for i in str_list]\n",
+        "\n",
+        "print(\"Original list:\", str_list)\n",
+        "print(\"Converted to integers:\", int_list)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AH0H1fpqcJa6",
+        "outputId": "103cb43e-4bbb-4c61-d17b-85c4723075a5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Original list: ['1', '2', '3']\n",
+            "Converted to integers: [1, 2, 3]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "11. Check if a number is positive, negative, or zero"
+      ],
+      "metadata": {
+        "id": "qykUyokEcPux"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = float(input(\"Enter a number: \"))\n",
+        "\n",
+        "if num > 0:\n",
+        "    print(\"Positive number\")\n",
+        "elif num < 0:\n",
+        "    print(\"Negative number\")\n",
+        "else:\n",
+        "    print(\"Zero\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "y8DmagRpcSfz",
+        "outputId": "7da17fb3-55c8-4a75-bfad-828826e3cf87"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: 25\n",
+            "Positive number\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "12. For loop from 1 to 10"
+      ],
+      "metadata": {
+        "id": "CNfRo9Xwccta"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in range(1, 11):\n",
+        "    print(i)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "voyk_7GbceI4",
+        "outputId": "81b2da3b-6ff3-4163-b2ab-4e6612f3bc28"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n",
+            "6\n",
+            "7\n",
+            "8\n",
+            "9\n",
+            "10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "13. Sum of all even numbers from 1 to 50"
+      ],
+      "metadata": {
+        "id": "Pvi06w2ccie6"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "even_sum = 0\n",
+        "for i in range(1, 51):\n",
+        "    if i % 2 == 0:\n",
+        "        even_sum += i\n",
+        "print(\"Sum of even numbers from 1 to 50:\", even_sum)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1iSBmN-eck4e",
+        "outputId": "f8aa902b-8671-402c-da22-483e0ee70196"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Sum of even numbers from 1 to 50: 650\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "14. Reverse a string using a while loop"
+      ],
+      "metadata": {
+        "id": "iHSg5juicoDR"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "Pfc-fQdnc9-B"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "text = input(\"Enter a string: \")\n",
+        "reversed_text = \"\"\n",
+        "i = len(text) - 1\n",
+        "\n",
+        "while i >= 0:\n",
+        "    reversed_text += text[i]\n",
+        "    i -= 1\n",
+        "\n",
+        "print(\"Reversed string:\", reversed_text)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LCSp3Bg7cr8o",
+        "outputId": "2bfa9353-0c5b-409e-9552-c055537f7374"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a string: 26\n",
+            "Reversed string: 62\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "15. Factorial using a while loop\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "TpDMSHPMcvdH"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = int(input(\"Enter a number: \"))\n",
+        "factorial = 1\n",
+        "i = 1\n",
+        "\n",
+        "while i <= num:\n",
+        "    factorial *= i\n",
+        "    i += 1\n",
+        "\n",
+        "print(f\"Factorial of {num} is {factorial}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Hcy8AG3Rcz_c",
+        "outputId": "50ee9094-d240-4bb2-95ea-3efa9d6e2ee6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: 63\n",
+            "Factorial of 63 is 1982608315404440064116146708361898137544773690227268628106279599612729753600000000000000\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
